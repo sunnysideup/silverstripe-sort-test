@@ -22,4 +22,11 @@ class Page_Controller extends ContentController
          return new PaginatedList($list, $this->getRequest());
      }
 
+    public function PaginatedObjectsSortedByCreated()
+     {
+         $list = MyDataObject::get()->sort('Created');
+
+         return new PaginatedList($list, $this->getRequest());
+     }
+
 }

@@ -30,6 +30,7 @@ class Page extends SiteTree
             } else {
                 $page->ParentID = 0;
             }
+            $page->Sort = 1;
             $page->writeToStage('Stage');
             $page->publish('Stage', 'Live');
         }

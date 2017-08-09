@@ -12,9 +12,7 @@ class Page_Controller extends ContentController
     {
         $list = Page::get();
 
-        $list = new PaginatedList($list, $this->getRequest());
-        $list->setPageLength(20);
-        return $list;
+        return new PaginatedList($list, $this->getRequest());
     }
 
     public function PaginatedObjects()

@@ -7,24 +7,11 @@
         $Form
         $CommentsForm
 
-    <h1>Paginated Pages</h1>
+    <%-- <h1>Paginated Pages</h1>
     <% loop PaginatedPages %>
-        <li>$Title</li>
+        <li>$Title ($Sort)</li>
     <% end_loop %>
 
-    <% if $PaginatedPages.MoreThanOnePage %>
-        <% loop $PaginatedPages.Pages %>
-            <% if $CurrentBool %>
-                $PageNum
-            <% else %>
-                <% if $Link %>
-                    <a href="$Link">$PageNum</a>
-                <% else %>
-                    ...
-                <% end_if %>
-            <% end_if %>
-            <% end_loop %>
-    <% end_if %>
     <% if $PaginatedPages.MoreThanOnePage %>
         <% loop $PaginatedPages.Pages %>
             <% if $CurrentBool %>
@@ -37,10 +24,11 @@
                 <% end_if %>
             <% end_if %>
         <% end_loop %>
-    <% end_if %>
-    <ul>
+    <% end_if %>  --%>
+
         <hr /><hr /><hr /><hr /><hr /><hr />
 
+    <ul>
         <h1>Paginated Objects</h1>
     <% loop $PaginatedObjects %>
         <li>$Title</li>
@@ -61,5 +49,6 @@
         <% end_loop %>
     <% end_if %>
 
+<hr /><hr /><hr /><hr /><hr /><hr />
 
 </div>

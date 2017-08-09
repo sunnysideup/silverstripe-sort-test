@@ -7,6 +7,7 @@
         $Form
         $CommentsForm
 
+    <h1>Paginated Pages</h1>
     <% loop PaginatedPages %>
         <li>$Title</li>
     <% end_loop %>
@@ -38,7 +39,9 @@
         <% end_loop %>
     <% end_if %>
     <ul>
+        <hr /><hr /><hr /><hr /><hr /><hr />
 
+        <h1>Paginated Objects</h1>
     <% loop $PaginatedObjects %>
         <li>$Title</li>
     <% end_loop %>

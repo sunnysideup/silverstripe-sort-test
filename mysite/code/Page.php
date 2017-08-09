@@ -15,7 +15,7 @@ class Page extends SiteTree
 
     function requireDefaultRecords()
     {
-        for($i = 1; $i < 400; $i++) {
+        for($i = 1; $i < 47; $i++) {
             DB::alteration_message('Creating Pages: '.$i);
             $filter = ['Title' => 'Page No. '.$i];
             $page = Page::get()->filter($filter)->first();

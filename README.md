@@ -1,7 +1,7 @@
 Test pagination
 =================
 
-This repository shows a critical bug in Silverstripe experienced on some Mysql installs. 
+This repository shows a critical bug in Silverstripe experienced on some Mysql installs experienced by some users. 
 
 
 Install

@@ -1,6 +1,8 @@
 Test pagination
 =================
 
+This repository shows a critical bug in Silverstripe experienced on some Mysql installs. 
+
 
 Install
 ------------------
@@ -8,10 +10,11 @@ Install
 - git clone this repo
 - create assets folder
 - composer install
+- dev/build
 
 
 
-Test
+Demo it
 ------------------
 
 - open any page

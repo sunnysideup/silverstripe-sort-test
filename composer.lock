@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6d9948eb8cc2fa024369b866ccac1096",
-    "content-hash": "3fddcebb0dc7d8a8d20d73a33b34def4",
+    "hash": "ac03f158685a70bbc2dd8b44cb597b1a",
+    "content-hash": "c8f2a02e8c0357aef5800a9f025578a0",
     "packages": [
         {
             "name": "composer/installers",
@@ -324,6 +324,54 @@
                 "siteconfig"
             ],
             "time": "2017-06-15 11:52:21"
+        },
+        {
+            "name": "sunnysideup/dataintegritytests",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunnysideup/silverstripe-dataintegritytests.git",
+                "reference": "5f5abd3c28af2a2c3191621eb070e29f388533da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-dataintegritytests/zipball/5f5abd3c28af2a2c3191621eb070e29f388533da",
+                "reference": "5f5abd3c28af2a2c3191621eb070e29f388533da",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "~3.1",
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "dataintegritytests"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Sunny Side Up (BSD-3-Clause and CUSTOM)"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolaas Francken",
+                    "email": "modules@sunnysideup.co.nz",
+                    "role": "lead developer"
+                }
+            ],
+            "description": "check your database for obsolete fields and related data-structure errors",
+            "keywords": [
+                "Silverstripe-CMS",
+                "check database",
+                "clean database",
+                "cms",
+                "database",
+                "dataintegritytests",
+                "mysql",
+                "obsolete fields",
+                "silverstripe",
+                "test data structure"
+            ],
+            "time": "2017-08-11 10:40:29"
         }
     ],
     "packages-dev": [
@@ -750,6 +798,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "sunnysideup/dataintegritytests": 20,
         "phpunit/phpunit": 0
     },
     "prefer-stable": true,

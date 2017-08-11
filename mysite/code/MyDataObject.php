@@ -8,9 +8,13 @@ class MyDataObject extends DataObject
         'SameSame' => 'Varchar(20)'
     );
 
-
     private static $default_sort = array(
         'SameSame' => 'ASC'
+    );
+
+    private static $summary_fields = array(
+        'ID' => 'ID',
+        'SameSame' => 'SameSame'
     );
 
     function requireDefaultRecords()

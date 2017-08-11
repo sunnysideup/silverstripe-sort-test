@@ -3,7 +3,8 @@
     "description": "The SilverStripe Framework Installer",
     "require": {
         "silverstripe/cms": "3.6.1",
-        "silverstripe/framework": "3.6.1"
+        "silverstripe/framework": "3.6.1",
+        "sunnysideup/dataintegritytests": "dev-master"
     },
     "require-dev": {
         "phpunit/PHPUnit": "~3.7@stable"

@@ -331,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-dataintegritytests.git",
-                "reference": "5f5abd3c28af2a2c3191621eb070e29f388533da"
+                "reference": "c1afd1d62abb8018bfc0b134d2115dd9cbe49e91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-dataintegritytests/zipball/5f5abd3c28af2a2c3191621eb070e29f388533da",
-                "reference": "5f5abd3c28af2a2c3191621eb070e29f388533da",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-dataintegritytests/zipball/c1afd1d62abb8018bfc0b134d2115dd9cbe49e91",
+                "reference": "c1afd1d62abb8018bfc0b134d2115dd9cbe49e91",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "silverstripe",
                 "test data structure"
             ],
-            "time": "2017-08-11 10:40:29"
+            "time": "2017-08-11 10:44:40"
         }
     ],
     "packages-dev": [

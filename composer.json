@@ -2,9 +2,9 @@
     "name": "silverstripe/installer",
     "description": "The SilverStripe Framework Installer",
     "require": {
-        "silverstripe/cms": "3.6.1",
-        "silverstripe/framework": "3.6.1",
-        "sunnysideup/dataintegritytests": "dev-master"
+        "silverstripe/cms": "~3.1",
+        "silverstripe/framework": "~3.1",
+        "sunnysideup/dataintegritytests": "*"
     },
     "require-dev": {
         "phpunit/PHPUnit": "~3.7@stable"
@@ -13,5 +13,13 @@
         "process-timeout": 600
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "installer-name": "sort-test"
+    },
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe"
+    ]
 }

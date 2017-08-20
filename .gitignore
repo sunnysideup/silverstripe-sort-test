@@ -1,17 +1,11 @@
-/cms/
-/framework/
-/reports/
-/siteconfig/
-/dataintegritytests/
-
-# ignore cache folder
-/silverstripe-cache/
-
-# ignore all environment files
-_ss_environment.php
-
-# ignore build tools
-/tools/phing-metadata
-
-# ignore composer vendor folder
-/vendor/
+.sass-cache
+.DS_Store
+npm-debug.log
+/.buildpath
+/.project
+/.settings
+css/GridField_print.css
+admin/thirdparty/chosen/node_modules
+node_modules/
+coverage/
+/**/*.js.map

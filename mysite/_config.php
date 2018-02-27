@@ -4,7 +4,7 @@ global $project;
 $project = 'mysite';
 
 global $database;
-$database = 'modeladmintest4';
+$database = '';
 
 require_once 'conf/ConfigureFromEnv.php';
 

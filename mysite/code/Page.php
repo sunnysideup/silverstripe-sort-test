@@ -36,9 +36,9 @@ class Page extends SiteTree
         foreach($array as $table) {
             DB::query('DELETE FROM "'.$table.'";');
         }
-        for($i = 1; $i < 150; $i++) {
+        for($i = 1; $i < 147; $i++) {
             DB::alteration_message('Creating Pages: '.$i);
-            $filter = ['Title' => 'Page No. '.$i];
+            $filter = ['Title' => 'Page No. '.$i, 'MenuTitle' => 'Page No. '.$i, 'Content' => '<p>hello world.</p>'];
             $page = Page::get()->filter($filter)->first();
             if(! $page) {
                 $page = Page::create($filter);

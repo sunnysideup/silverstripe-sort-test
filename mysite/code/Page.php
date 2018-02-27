@@ -15,7 +15,28 @@ class Page extends SiteTree
 
     function requireDefaultRecords()
     {
-        for($i = 1; $i < 47; $i++) {
+        $array = [
+            'ErrorPage',
+            'ErrorPage_Live',
+            'ErrorPage_versions',
+            'RedirectorPage',
+            'RedirectorPage_Live',
+            'RedirectorPage_versions',
+            'SiteTree',
+            'SiteTree_EditorGroups',
+            'SiteTree_ImageTracking',
+            'SiteTree_LinkTracking',
+            'SiteTree_Live',
+            'SiteTree_versions',
+            'SiteTree_ViewerGroups',
+            'VirtualPage',
+            'VirtualPage_Live',
+            'VirtualPage_versions'
+        ];
+        foreach($array as $table) {
+            DB::query('DELETE FROM "'.$table.'";');
+        }
+        for($i = 1; $i < 150; $i++) {
             DB::alteration_message('Creating Pages: '.$i);
             $filter = ['Title' => 'Page No. '.$i];
             $page = Page::get()->filter($filter)->first();

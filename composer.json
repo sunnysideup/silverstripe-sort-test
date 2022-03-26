@@ -6,9 +6,6 @@
         "silverstripe/framework": "~3.6",
         "sunnysideup/dataintegritytests": "*"
     },
-    "require-dev": {
-        "phpunit/PHPUnit": "~3.7@stable"
-    },
     "config": {
         "process-timeout": 600
     },
